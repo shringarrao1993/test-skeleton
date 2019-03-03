@@ -1,6 +1,6 @@
 #org.jbehave.core.embedder.StoryManager
-#Sun Mar 03 09:55:07 CET 2019
-stories/first_test.story=67000
+#Sun Mar 03 13:13:48 CET 2019
+stories/first_test.story=74000
 threads=1
-total=67000
-threadAverage=67000
+total=74000
+threadAverage=74000
