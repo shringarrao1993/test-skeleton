@@ -14,7 +14,6 @@
         <serenity.jbehave.version>1.42.0</serenity.jbehave.version>
         <serenity.maven.version>1.0.47</serenity.maven.version>
         <webdriver.driver>chrome</webdriver.driver>
-
     </properties>
 
     <repositories>
@@ -225,29 +224,6 @@
                         <goals>
                             <goal>aggregate</goal>
                         </goals>
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
-                <groupId>com.github.temyers</groupId>
-                <artifactId>cucumber-jvm-parallel-plugin</artifactId>
-                <version>5.0.0</version>
-                <executions>
-                    <execution>
-                        <id>generateRunners</id>
-                        <phase>generate-test-sources</phase>
-                        <goals>
-                            <goal>generateRunners</goal>
-                        </goals>
-                        <configuration>
-                            <!-- Mandatory -->
-                            <!-- List of package names to scan for glue code. -->
-                            <glue>
-                                <package>com.mls.core.steps</package>
-                            </glue>
-                            <parallelScheme>SCENARIO</parallelScheme>
-                            <customVmTemplate>src/test/resources/cucumber-serenity-runner.vm</customVmTemplate>
-                        </configuration>
                     </execution>
                 </executions>
             </plugin>
