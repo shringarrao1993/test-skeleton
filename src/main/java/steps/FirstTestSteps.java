@@ -7,7 +7,6 @@ import pages.FirstTestPage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import variableInterfaces.Constant;
-import variableInterfaces.URL;
 
 
 public class FirstTestSteps extends ScenarioSteps{
@@ -28,13 +27,12 @@ public class FirstTestSteps extends ScenarioSteps{
 
     @Step
     public void whenUserSearchesForSearch(String search){
-
         firstTestPage.clickInputItem();
         firstTestPage.setInputItem(search + Keys.ENTER);
     }
 
     @Step
-    public void thenSearchResultsForColoursIsDisplayed(){
+    public void thenTheCorrectSearchResultsAreDisplayed(){
 
     }
 }

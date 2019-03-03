@@ -25,8 +25,8 @@ public class FirstTestStepDescriptors {
         firstTestSteps.whenUserSearchesForSearch(search);
     }
 
-    @Then("search results for colours is displayed")
-    public void thenSearchResultsForColoursIsDisplayed() {
-        // PENDING
+    @Then("the correct search results are displayed")
+    public void thenTheCorrectSearchResultsAreDisplayed() {
+        firstTestSteps.thenTheCorrectSearchResultsAreDisplayed();
     }
 }
