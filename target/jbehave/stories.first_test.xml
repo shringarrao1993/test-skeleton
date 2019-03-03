@@ -1,2 +1,30 @@
 <story path="stories/first_test.story" title="">
 <scenario keyword="Scenario:" title="User searches for colours via google search">
+<examples keyword="Examples:">
+<step>Given user opens the &lt;SE&gt; search engine</step>
+<step>When user searches for &lt;search&gt;</step>
+<step>Then search results for colours is displayed</step>
+<parameters>
+<names><name>SE</name><name>search</name></names>
+<values><value>google</value><value>colours</value></values>
+<values><value>bing</value><value>pandas</value></values>
+<values><value>ecosia</value><value>northern lights</value></values>
+</parameters>
+
+<example keyword="Example:">{SE=google, search=colours}</example>
+<step outcome="successful">Given user opens the <parameter>google</parameter> search engine</step>
+<step outcome="successful">When user searches for <parameter>colours</parameter></step>
+<step outcome="successful">Then search results for colours is displayed</step>
+
+<example keyword="Example:">{SE=bing, search=pandas}</example>
+<step outcome="successful">Given user opens the <parameter>bing</parameter> search engine</step>
+<step outcome="successful">When user searches for <parameter>pandas</parameter></step>
+<step outcome="successful">Then search results for colours is displayed</step>
+
+<example keyword="Example:">{SE=ecosia, search=northern lights}</example>
+<step outcome="successful">Given user opens the <parameter>ecosia</parameter> search engine</step>
+<step outcome="successful">When user searches for <parameter>northern lights</parameter></step>
+<step outcome="successful">Then search results for colours is displayed</step>
+</examples>
+</scenario>
+</story>

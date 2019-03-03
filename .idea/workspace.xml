@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f80a554c-5537-475a-992e-44af1cd17d4e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps/FirstTestSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/FirstTestSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/self/tests/descriptors/StepDescriptors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/self/tests/descriptors/FirstTestStepDescriptors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/stories/first_test.story" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/stories/first_test.story" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/steps/FirstTestSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/steps/FirstTestSteps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jbehave/AfterStories.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/AfterStories.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jbehave/AfterStories.stats" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/AfterStories.stats" afterDir="false" />
@@ -79,6 +72,7 @@
           <entry key="dummy" value="30" />
           <entry key="java" value="1088" />
           <entry key="story" value="130" />
+          <entry key="txt" value="126" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
@@ -86,7 +80,7 @@
         <counts>
           <entry key="JAVA" value="1088" />
           <entry key="JBehave Story" value="130" />
-          <entry key="PLAIN_TEXT" value="30" />
+          <entry key="PLAIN_TEXT" value="156" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -131,7 +125,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/steps/FirstTestSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
+            <state relative-caret-position="282">
               <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -405,7 +399,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551605488389" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551605668157" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/git-cmd.exe" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -506,7 +500,21 @@
       <option name="project" value="LOCAL" />
       <updated>1550974631736</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Addition and modificaton of xml files.">
+      <created>1551605665975</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551605665976</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Modification of initial story">
+      <created>1551605795474</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1551605795474</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -596,7 +604,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Addition and modificaton of xml files." />
+    <MESSAGE value="Modification of initial story" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modification of initial story" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/1.9.45/serenity-core-1.9.45.jar!/net/thucydides/core/steps/ScenarioSteps.class">
@@ -723,7 +733,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/steps/FirstTestSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
+        <state relative-caret-position="282">
           <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />

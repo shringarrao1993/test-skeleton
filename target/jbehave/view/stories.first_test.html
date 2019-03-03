@@ -11,9 +11,41 @@
 <div class="path">stories/first_test.story</div>
 <div class="scenario">
 <h2>Scenario: User searches for colours via google search</h2>
-<div class="step successful">Given user opens the google search engine</div>
-<div class="step successful">When user searches for colours</div>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given user opens the &lt;SE&gt; search engine</div>
+<div class="step">When user searches for &lt;search&gt;</div>
+<div class="step">Then search results for colours is displayed</div>
+<table>
+<thead>
+<tr>
+<th>SE</th><th>search</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>google</td><td>colours</td></tr>
+<tr>
+<td>bing</td><td>pandas</td></tr>
+<tr>
+<td>ecosia</td><td>northern lights</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {SE=google, search=colours}</h3>
+<div class="step successful">Given user opens the <span class="step parameter">google</span> search engine</div>
+<div class="step successful">When user searches for <span class="step parameter">colours</span></div>
 <div class="step successful">Then search results for colours is displayed</div>
+
+<h3 class="example">Example: {SE=bing, search=pandas}</h3>
+<div class="step successful">Given user opens the <span class="step parameter">bing</span> search engine</div>
+<div class="step successful">When user searches for <span class="step parameter">pandas</span></div>
+<div class="step successful">Then search results for colours is displayed</div>
+
+<h3 class="example">Example: {SE=ecosia, search=northern lights}</h3>
+<div class="step successful">Given user opens the <span class="step parameter">ecosia</span> search engine</div>
+<div class="step successful">When user searches for <span class="step parameter">northern lights</span></div>
+<div class="step successful">Then search results for colours is displayed</div>
+</div>
 </div>
 </div>
 
