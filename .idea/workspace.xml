@@ -1,36 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f80a554c-5537-475a-992e-44af1cd17d4e" name="Default" comment="">
+    <list default="true" id="f80a554c-5537-475a-992e-44af1cd17d4e" name="Default" comment="Extension of main java package and class structure.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/steps/FirstTestSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/steps/FirstTestSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/AfterStories.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/AfterStories.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/AfterStories.stats" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/AfterStories.stats" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/AfterStories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/AfterStories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/BeforeStories.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/BeforeStories.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/BeforeStories.stats" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/BeforeStories.stats" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/BeforeStories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/BeforeStories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/stories.first_test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/stories.first_test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/stories.first_test.stats" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/stories.first_test.stats" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/stories.first_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/stories.first_test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/storyDurations.props" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/storyDurations.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/view/AfterStories.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/AfterStories.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/view/AfterStories.stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/AfterStories.stats.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/view/AfterStories.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/AfterStories.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.stats.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/view/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/view/reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/reports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/view/stories.first_test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/stories.first_test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/view/stories.first_test.stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/stories.first_test.stats.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/view/stories.first_test.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/stories.first_test.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/7ab9f0fc317df3e2002838c4a8fac2193c1223050e34dec774434ff39d36c6ec.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/7ab9f0fc317df3e2002838c4a8fac2193c1223050e34dec774434ff39d36c6ec.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/7ab9f0fc317df3e2002838c4a8fac2193c1223050e34dec774434ff39d36c6ec.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/7ab9f0fc317df3e2002838c4a8fac2193c1223050e34dec774434ff39d36c6ec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/7ab9f0fc317df3e2002838c4a8fac2193c1223050e34dec774434ff39d36c6ec_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/7ab9f0fc317df3e2002838c4a8fac2193c1223050e34dec774434ff39d36c6ec_screenshots.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-7ab9f0fc317df3e2002838c4a8fac2193c1223050e34dec774434ff39d36c6ec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-7ab9f0fc317df3e2002838c4a8fac2193c1223050e34dec774434ff39d36c6ec.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/self/tests/descriptors/StepDescriptors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stories/first_test.story" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stories/first_test.story" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,7 +45,7 @@
           <entry key="dummy" value="30" />
           <entry key="java" value="1088" />
           <entry key="story" value="130" />
-          <entry key="txt" value="126" />
+          <entry key="txt" value="228" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
@@ -80,7 +53,7 @@
         <counts>
           <entry key="JAVA" value="1088" />
           <entry key="JBehave Story" value="130" />
-          <entry key="PLAIN_TEXT" value="156" />
+          <entry key="PLAIN_TEXT" value="258" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -101,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/stories/first_test.story">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            <state relative-caret-position="170">
+              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -122,7 +95,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/steps/FirstTestSteps.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="282">
@@ -399,7 +372,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551605838456" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551605941102" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/git-cmd.exe" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -514,7 +487,21 @@
       <option name="project" value="LOCAL" />
       <updated>1551605795474</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Inclusion of all generated target files (report)">
+      <created>1551605836007</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1551605836007</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Extension of main java package and class structure.">
+      <created>1551605909328</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1551605909328</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -563,9 +550,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="DB Browser" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22844176" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22844176" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -580,7 +568,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32993197" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32993197" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32993197" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49848714" weight="0.32482994" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015129" side_tool="true" weight="0.3371522" />
@@ -606,7 +594,9 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Addition and modificaton of xml files." />
     <MESSAGE value="Modification of initial story" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modification of initial story" />
+    <MESSAGE value="Inclusion of all generated target files (report)" />
+    <MESSAGE value="Extension of main java package and class structure." />
+    <option name="LAST_COMMIT_MESSAGE" value="Extension of main java package and class structure." />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/1.9.45/serenity-core-1.9.45.jar!/net/thucydides/core/steps/ScenarioSteps.class">
@@ -697,13 +687,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/first_test.story">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/self/tests/descriptors/FirstTestStepDescriptors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -738,6 +721,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/first_test.story">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
         </state>
       </provider>
     </entry>
