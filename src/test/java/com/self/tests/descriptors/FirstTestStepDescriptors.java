@@ -7,13 +7,15 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import steps.FirstTestSteps;
+import variableInterfaces.Constant;
 
+//Defines the various steps in the first_test story file
 public class FirstTestStepDescriptors {
 
     final static Logger LOG = LoggerFactory.getLogger(FirstTestStepDescriptors.class);
 
     @Steps
-    FirstTestSteps firstTestSteps;
+    private FirstTestSteps firstTestSteps;
 
     @Given("user opens the <SE> search engine")
     public void givenUserOpensTheSESearchEngine(@Named("SE") String SE) {
@@ -22,6 +24,7 @@ public class FirstTestStepDescriptors {
 
     @When("user searches for <search>")
     public void whenUserSearchesForSearch(@Named("search") String search) {
+        Constant.searchTerm = search;
         firstTestSteps.whenUserSearchesForSearch(search);
     }
 
