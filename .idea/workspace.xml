@@ -2,33 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17a380b9-c671-44aa-b23a-807a2307a100" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_serenity_bdd_serenity_jbehave_1_42_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_serenity_bdd_serenity_jbehave_1_44_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/steps/first_test/FirstTestSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shringar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Shringar.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/driver/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serenity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/functions/FirstTestFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functions/FirstTestFunctions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps/FirstTestSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/FirstTestSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/variableInterfaces/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/variableInterfaces/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/functions/FirstTestFunctions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/FirstTestPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/first_test/FirstTestPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/FirstTestSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/variableInterfaces/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/variable_interfaces/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/variableInterfaces/Path.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/variable_interfaces/Path.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/self/tests/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/self/tests/main_classes/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/self/tests/descriptors/FirstTestStepDescriptors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/self/tests/descriptors/first_test/StepDescriptors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/steps/FirstTestSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/steps/FirstTestSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/AfterStories.stats" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/AfterStories.stats" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/BeforeStories.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/BeforeStories.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jbehave/BeforeStories.stats" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/BeforeStories.stats" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/BeforeStories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/BeforeStories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jbehave/stories.first_test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/stories.first_test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jbehave/stories.first_test.stats" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/stories.first_test.stats" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jbehave/stories.first_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/stories.first_test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/storyDurations.props" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/storyDurations.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/view/AfterStories.stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/AfterStories.stats.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.stats.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/view/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/view/reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/reports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/view/stories.first_test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/stories.first_test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/view/stories.first_test.stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/stories.first_test.stats.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/view/stories.first_test.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/stories.first_test.xml.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,10 +31,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/FirstTestPage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/first_test/FirstTestPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+            <state relative-caret-position="316">
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,22 +43,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/variableInterfaces/Path.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/variable_interfaces/Path.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-9">
               <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/functions/FirstTestFunctions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -85,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/steps/FirstTestSteps.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/steps/first_test/FirstTestSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="138">
+              <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,8 +81,8 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/variableInterfaces/Constant.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/variable_interfaces/Constant.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
               <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
@@ -128,8 +103,9 @@
         <option value="$PROJECT_DIR$/src/test/java/com/self/tests/descriptors/FirstTestStepDescriptors.java" />
         <option value="$PROJECT_DIR$/src/main/java/variableInterfaces/Path.java" />
         <option value="$PROJECT_DIR$/src/main/java/functions/FirstTestFunctions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/steps/FirstTestSteps.java" />
         <option value="$PROJECT_DIR$/src/main/java/variableInterfaces/Constant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/steps/FirstTestSteps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/steps/first_test/FirstTestSteps.java" />
       </list>
     </option>
   </component>
@@ -187,7 +163,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="functions" type="462c0819:PsiDirectoryNode" />
+              <item name="first_test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="self" type="b2602c69:ProjectViewProjectNode" />
@@ -195,15 +171,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="self" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="steps" type="462c0819:PsiDirectoryNode" />
+              <item name="first_test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="self" type="b2602c69:ProjectViewProjectNode" />
@@ -219,7 +187,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="variableInterfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="variable_interfaces" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="self" type="b2602c69:ProjectViewProjectNode" />
@@ -270,6 +238,12 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.self.tests.main_classes" />
+      <recent name="com.self.tests.descriptors.first_test" />
+      <recent name="steps.first_test" />
+      <recent name="pages.first_test" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\shrin\IdeaProjects\test-skeleton\driver" />
     </key>
@@ -289,8 +263,8 @@
   <component name="RunManager">
     <configuration name="First_Test" type="JUnit" factoryName="JUnit">
       <module name="Shringar" />
-      <option name="PACKAGE_NAME" value="com.self.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.self.tests.FirstTest" />
+      <option name="PACKAGE_NAME" value="com.self.tests.main_classes" />
+      <option name="MAIN_CLASS_NAME" value="com.self.tests.main_classes.FirstTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-Dwebdriver.chrome.driver=driver/chromedriver.exe" />
@@ -311,12 +285,17 @@
       <option name="presentableId" value="Default" />
       <updated>1566519998021</updated>
     </task>
+    <task id="LOCAL-00001" summary="Intermediate commit">
+      <created>1566524324163</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566524324163</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="First_Test - 2019.08.23 at 02h 32m 15s.xml">
-      <configuration name="First_Test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="First_Test - 2019.08.23 at 02h 36m 48s.xml">
       <configuration name="First_Test" configurationId="JUnit" />
     </history-entry>
@@ -344,11 +323,48 @@
     <history-entry file="First_Test - 2019.08.23 at 03h 31m 06s.xml">
       <configuration name="First_Test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="First_Test - 2019.08.23 at 03h 49m 09s.xml">
+      <configuration name="First_Test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27682227" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="DB Browser" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977307" visible="true" weight="0.07495069" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49791667" weight="0.41" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.32993197" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4971335" weight="0.16370809" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4977307" weight="0.32482994" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5028665" side_tool="true" weight="0.32938856" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32993197" />
+      <window_info anchor="bottom" id="DB Execution Console" order="12" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32980332" />
+      <window_info anchor="right" id="Maven" order="10" />
+    </layout>
+    <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27682227" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
@@ -381,7 +397,11 @@
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32980332" />
       <window_info anchor="right" id="Maven" order="10" />
-    </layout>
+    </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Intermediate commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Intermediate commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Shringar.iml">
@@ -432,7 +452,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/self/tests/descriptors/FirstTestStepDescriptors.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/self/tests/descriptors/first_test/StepDescriptors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
@@ -442,20 +462,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/variableInterfaces/Path.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/variable_interfaces/Path.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-9">
           <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/FirstTestPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -466,30 +476,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/functions/FirstTestFunctions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/steps/FirstTestSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/variableInterfaces/Constant.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/variable_interfaces/Constant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/functions/FirstTestFunctions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/first_test/FirstTestPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/steps/first_test/FirstTestSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

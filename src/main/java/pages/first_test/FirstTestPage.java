@@ -1,4 +1,4 @@
-package pages;
+package pages.first_test;
 
 import net.thucydides.core.pages.PageObject;
 import org.openqa.selenium.WebElement;
@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import variableInterfaces.Path;
+import variable_interfaces.Path;
 
 //Defines the xpath of various page objects used in FirstTestFunctions class
 public class FirstTestPage extends PageObject {

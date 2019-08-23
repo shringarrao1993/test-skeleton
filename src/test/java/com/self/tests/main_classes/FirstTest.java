@@ -1,4 +1,4 @@
-package com.self.tests;
+package com.self.tests.main_classes;
 
 import net.serenitybdd.jbehave.SerenityStory;
 

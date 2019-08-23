@@ -1,4 +1,4 @@
-package com.self.tests.descriptors;
+package com.self.tests.descriptors.first_test;
 
 
 import net.thucydides.core.annotations.*;
@@ -6,13 +6,13 @@ import org.jbehave.core.annotations.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import steps.FirstTestSteps;
-import variableInterfaces.Constant;
+import steps.first_test.FirstTestSteps;
+import variable_interfaces.Constant;
 
 //Defines the various steps in the first_test story file
-public class FirstTestStepDescriptors {
+public class StepDescriptors {
 
-    final static Logger LOG = LoggerFactory.getLogger(FirstTestStepDescriptors.class);
+    final static Logger LOG = LoggerFactory.getLogger(StepDescriptors.class);
 
     @Steps
     private FirstTestSteps firstTestSteps;

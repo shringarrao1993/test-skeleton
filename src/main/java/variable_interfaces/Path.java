@@ -1,4 +1,4 @@
-package variableInterfaces;
+package variable_interfaces;
 
 //Defines various xpath variables used in Page object definition in FirstTestPage class
 public interface Path {
