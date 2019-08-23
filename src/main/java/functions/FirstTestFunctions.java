@@ -1,8 +1,10 @@
 package functions;
 
+import org.openqa.selenium.By;
 import pages.FirstTestPage;
 import utility.Wait;
 import variableInterfaces.Constant;
+import variableInterfaces.Path;
 
 //Defines various methods called in the FirstTestSteps class
 public class FirstTestFunctions {
@@ -12,11 +14,14 @@ public class FirstTestFunctions {
 
     public  void clickInputItem(){
         if (Constant.searchEngine.equalsIgnoreCase("google")){
-            wait.waitUntilElementIsClickable(firstTestPage.googleInputItem).click();
+            System.out.println("Search engine is: " + Constant.searchEngine);
+            wait.waitUntilElementIsClickable(By.xpath(Path.FirstTestHome.googleInputItem)).click();
         }else if (Constant.searchEngine.equalsIgnoreCase("bing")){
-            wait.waitUntilElementIsClickable(firstTestPage.bingInputItem).click();
+            System.out.println("Search engine is: " + Constant.searchEngine);
+            wait.waitUntilElementIsClickable(By.xpath(Path.FirstTestHome.bingInputItem)).click();
         }else if (Constant.searchEngine.equalsIgnoreCase("ecosia")){
-            wait.waitUntilElementIsClickable(firstTestPage.ecosiaInputItem).click();
+            System.out.println("Search engine is: " + Constant.searchEngine);
+            wait.waitUntilElementIsClickable(By.xpath(Path.FirstTestHome.ecosiaInputItem)).click();
         }
     }
 

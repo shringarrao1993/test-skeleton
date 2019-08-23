@@ -28,19 +28,39 @@
 
 <example keyword="Example:">{SE=google, search=colours}</example>
 <step outcome="successful">Given user opens the <parameter>google</parameter> search engine</step>
-<step outcome="successful">When user searches for <parameter>colours</parameter></step>
-<step outcome="successful">Then the correct search results are displayed</step>
+<step outcome="failed" keyword="FAILED">When user searches for <parameter>colours</parameter><failure>java.lang.NullPointerException</failure></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then the correct search results are displayed</step>
 
 <example keyword="Example:">{SE=bing, search=pandas}</example>
 <step outcome="successful">Given user opens the <parameter>bing</parameter> search engine</step>
-<step outcome="successful">When user searches for <parameter>pandas</parameter></step>
-<step outcome="successful">Then the correct search results are displayed</step>
+<step outcome="failed" keyword="FAILED">When user searches for <parameter>pandas</parameter><failure>java.lang.NullPointerException</failure></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then the correct search results are displayed</step>
 
 <example keyword="Example:">{SE=ecosia, search=northern lights}</example>
 <step outcome="successful">Given user opens the <parameter>ecosia</parameter> search engine</step>
-<step outcome="successful">When user searches for <parameter>northern lights</parameter></step>
-<step outcome="successful">Then the correct search results are displayed</step>
+<step outcome="failed" keyword="FAILED">When user searches for <parameter>northern lights</parameter><failure>java.lang.NullPointerException</failure></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then the correct search results are displayed</step>
 </examples>
+<failure>java.lang.NullPointerException
+	at steps.FirstTestSteps.whenUserSearchesForSearch(FirstTestSteps.java:30)
+	at steps.FirstTestSteps$$EnhancerByCGLIB$$b699b948.CGLIB$whenUserSearchesForSearch$1(&lt;generated&gt;)
+	at steps.FirstTestSteps$$EnhancerByCGLIB$$b699b948$$FastClassByCGLIB$$92fa1ca9.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:449)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:434)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:409)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:150)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:137)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)
+	at steps.FirstTestSteps$$EnhancerByCGLIB$$b699b948.whenUserSearchesForSearch(&lt;generated&gt;)
+	at com.self.tests.descriptors.FirstTestStepDescriptors.whenUserSearchesForSearch(FirstTestStepDescriptors.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:782)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:350)
+...</failure>
 </scenario>
 </story>
 
