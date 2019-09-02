@@ -2,20 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17a380b9-c671-44aa-b23a-807a2307a100" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/steps/first_test/FirstTestSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/functions/FirstTestFunctions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/FirstTestPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/first_test/FirstTestPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps/FirstTestSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/variableInterfaces/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/variable_interfaces/Constant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/variableInterfaces/Path.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/variable_interfaces/Path.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/self/tests/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/self/tests/main_classes/FirstTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/self/tests/descriptors/FirstTestStepDescriptors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/self/tests/descriptors/first_test/StepDescriptors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/steps/FirstTestSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/steps/FirstTestSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/first_test/FirstTestPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_test/LandingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/first_test/FirstTestSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_test/FirstTestSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utility/Wait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utility/Wait.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/variable_interfaces/Constant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/variable_interfaces/Path.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_test/Path.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/self/tests/descriptors/first_test/StepDescriptors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/self/tests/first_test/StepDescriptors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/self/tests/main_classes/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/self/tests/first_test/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/stories/first_test.story" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/stories/first_test.story" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/steps/FirstTestSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/AfterStories.stats" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/AfterStories.stats" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jbehave/BeforeStories.stats" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/BeforeStories.stats" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jbehave/stories.first_test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/stories.first_test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jbehave/stories.first_test.stats" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/stories.first_test.stats" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jbehave/stories.first_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/stories.first_test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/storyDurations.props" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/storyDurations.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/view/AfterStories.stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/AfterStories.stats.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.stats.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/view/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/view/reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/reports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/view/stories.first_test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/stories.first_test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/view/stories.first_test.stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/stories.first_test.stats.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jbehave/view/stories.first_test.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/stories.first_test.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/self/tests/FirstTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,10 +41,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/first_test/FirstTestPage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/first_test/LandingPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+            <state relative-caret-position="79">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,10 +53,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/variable_interfaces/Path.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/first_test/Path.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="291">
+              <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -54,17 +64,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/utility/Wait.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-207">
-              <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+            <state relative-caret-position="355">
+              <caret line="71" selection-start-line="71" selection-end-line="71" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/steps/first_test/FirstTestSteps.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/first_test/FirstTestSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+            <state relative-caret-position="299">
+              <caret line="85" column="15" lean-forward="true" selection-start-line="85" selection-start-column="15" selection-end-line="85" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,24 +83,48 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/first_test/ResultPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/stories/first_test.story">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            <state relative-caret-position="265">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/variable_interfaces/Constant.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/self/tests/first_test/StepDescriptors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+            <state relative-caret-position="239">
+              <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#982#983#0" expanded="true" />
+                <element signature="e#1054#1055#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -106,6 +140,13 @@
         <option value="$PROJECT_DIR$/src/main/java/variableInterfaces/Constant.java" />
         <option value="$PROJECT_DIR$/src/main/java/steps/FirstTestSteps.java" />
         <option value="$PROJECT_DIR$/src/main/java/steps/first_test/FirstTestSteps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/first_test/LandingPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utility/Wait.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/self/tests/first_test/StepDescriptors.java" />
+        <option value="$PROJECT_DIR$/src/main/java/first_test/Path.java" />
+        <option value="$PROJECT_DIR$/src/main/java/first_test/ResultPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/first_test/FirstTestSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/stories/first_test.story" />
       </list>
     </option>
   </component>
@@ -126,7 +167,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,28 +211,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="first_test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="self" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="utility" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="self" type="b2602c69:ProjectViewProjectNode" />
               <item name="test-skeleton" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="variable_interfaces" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="self" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-skeleton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -208,7 +232,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="first_test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="self" type="b2602c69:ProjectViewProjectNode" />
@@ -230,6 +254,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,10 +264,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.self.tests.first_test" />
+      <recent name="first_test" />
+      <recent name="variable_interfaces.first_test" />
       <recent name="com.self.tests.main_classes" />
       <recent name="com.self.tests.descriptors.first_test" />
-      <recent name="steps.first_test" />
-      <recent name="pages.first_test" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\shrin\IdeaProjects\test-skeleton\driver" />
@@ -263,8 +289,8 @@
   <component name="RunManager">
     <configuration name="First_Test" type="JUnit" factoryName="JUnit">
       <module name="Shringar" />
-      <option name="PACKAGE_NAME" value="com.self.tests.main_classes" />
-      <option name="MAIN_CLASS_NAME" value="com.self.tests.main_classes.FirstTest" />
+      <option name="PACKAGE_NAME" value="com.self.tests.first_test" />
+      <option name="MAIN_CLASS_NAME" value="com.self.tests.first_test.FirstTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-Dwebdriver.chrome.driver=driver/chromedriver.exe" />
@@ -292,38 +318,45 @@
       <option name="project" value="LOCAL" />
       <updated>1566524324163</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Project re-structure.">
+      <created>1566525939653</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1566525939653</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="First_Test - 2019.08.23 at 02h 36m 48s.xml">
+    <history-entry file="First_Test - 2019.09.02 at 23h 25m 43s.xml">
       <configuration name="First_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="First_Test - 2019.08.23 at 02h 37m 19s.xml">
+    <history-entry file="First_Test - 2019.09.02 at 23h 32m 09s.xml">
       <configuration name="First_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="First_Test - 2019.08.23 at 02h 38m 36s.xml">
+    <history-entry file="First_Test - 2019.09.02 at 23h 34m 23s.xml">
       <configuration name="First_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="First_Test - 2019.08.23 at 02h 40m 10s.xml">
+    <history-entry file="First_Test - 2019.09.03 at 00h 12m 30s.xml">
       <configuration name="First_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="First_Test - 2019.08.23 at 02h 43m 19s.xml">
+    <history-entry file="First_Test - 2019.09.03 at 00h 13m 38s.xml">
       <configuration name="First_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="First_Test - 2019.08.23 at 02h 45m 49s.xml">
+    <history-entry file="First_Test - 2019.09.03 at 00h 15m 48s.xml">
       <configuration name="First_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="First_Test - 2019.08.23 at 02h 49m 35s.xml">
+    <history-entry file="First_Test - 2019.09.03 at 00h 42m 46s.xml">
       <configuration name="First_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="First_Test - 2019.08.23 at 02h 54m 50s.xml">
+    <history-entry file="First_Test - 2019.09.03 at 00h 52m 37s.xml">
       <configuration name="First_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="First_Test - 2019.08.23 at 03h 31m 06s.xml">
+    <history-entry file="First_Test - 2019.09.03 at 01h 00m 41s.xml">
       <configuration name="First_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="First_Test - 2019.08.23 at 03h 49m 09s.xml">
+    <history-entry file="First_Test - 2019.09.03 at 01h 02m 53s.xml">
       <configuration name="First_Test" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -331,7 +364,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27682227" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28337428" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -340,8 +373,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="DB Browser" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977307" visible="true" weight="0.07495069" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32741618" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4977307" visible="true" weight="0.15581854" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49791667" weight="0.41" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -364,56 +397,16 @@
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32980332" />
       <window_info anchor="right" id="Maven" order="10" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27682227" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="DB Browser" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4977307" visible="true" weight="0.2938856" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49791667" weight="0.41" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.32993197" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4971335" weight="0.16370809" />
-      <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4977307" weight="0.32482994" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5028665" side_tool="true" weight="0.32938856" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32993197" />
-      <window_info anchor="bottom" id="DB Execution Console" order="12" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32980332" />
-      <window_info anchor="right" id="Maven" order="10" />
-    </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Intermediate commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Intermediate commit" />
+    <MESSAGE value="Project re-structure." />
+    <option name="LAST_COMMIT_MESSAGE" value="Project re-structure." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Shringar.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2091" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/first_test.story">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/1.9.45/serenity-core-1.9.45-sources.jar!/net/thucydides/core/pages/Pages.java">
@@ -452,64 +445,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/self/tests/descriptors/first_test/StepDescriptors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/variable_interfaces/Path.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/functions/FirstTestFunctions.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/utility/Wait.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-207">
-          <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+        <state relative-caret-position="355">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/variable_interfaces/Constant.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/first_test/LandingPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/functions/FirstTestFunctions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="24" selection-end-column="9" />
+        <state relative-caret-position="79">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/first_test/FirstTestPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/first_test/Constant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        <state relative-caret-position="69">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/self/tests/first_test/StepDescriptors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#1054#1055#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/first_test/Path.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/first_test/ResultPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/steps/first_test/FirstTestSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/first_test/FirstTestSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        <state relative-caret-position="299">
+          <caret line="85" column="15" lean-forward="true" selection-start-line="85" selection-start-column="15" selection-end-line="85" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/first_test.story">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
         </state>
       </provider>
     </entry>
