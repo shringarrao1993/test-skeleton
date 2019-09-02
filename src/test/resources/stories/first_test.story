@@ -13,4 +13,4 @@ Examples:
 |SE|search|
 |google|colours|
 |bing|pandas|
-|ecosia|northern lights|
+|ecosia|rainforests|

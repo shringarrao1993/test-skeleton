@@ -6,6 +6,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 
 import java.time.Duration;
+import java.util.List;
 
 import static java.util.concurrent.TimeUnit.SECONDS;
 
@@ -55,6 +56,18 @@ public class Wait extends PageObject{
 
     public WebElement waitUntilElementIsVisible(WebElement element){
         return wait.until(ExpectedConditions.visibilityOf(element));
+    }
+
+    public List<WebElement> waitUntilElementsAreVisible(final By locator){
+        return wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
+    }
+
+    public List<WebElement> waitUntilElementsAreVisible(List<WebElement> elementList){
+        return wait.until(ExpectedConditions.visibilityOfAllElements(elementList));
+    }
+
+    public List<WebElement> waitUntilElementsArePresent(By locator){
+        return wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(locator));
     }
 
     public void waitUntilElementIsNotPresent(final By locator){
