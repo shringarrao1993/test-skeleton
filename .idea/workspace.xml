@@ -26,6 +26,7 @@
       <change beforePath="$PROJECT_DIR$/target/jbehave/view/stories.first_test.stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/stories.first_test.stats.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jbehave/view/stories.first_test.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/stories.first_test.xml.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/self/tests/FirstTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stories/first_test.story" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stories/first_test.story" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -325,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566525939653</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Project re-structure.">
+      <created>1567465697018</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567465697018</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
