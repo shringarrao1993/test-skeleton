@@ -3,30 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="17a380b9-c671-44aa-b23a-807a2307a100" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/first_test/FirstTestPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_test/LandingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps/first_test/FirstTestSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_test/FirstTestSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utility/Wait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utility/Wait.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/variable_interfaces/Constant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/variable_interfaces/Path.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_test/Path.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/self/tests/descriptors/first_test/StepDescriptors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/self/tests/first_test/StepDescriptors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/self/tests/main_classes/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/self/tests/first_test/FirstTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/stories/first_test.story" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/stories/first_test.story" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/steps/FirstTestSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/AfterStories.stats" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/AfterStories.stats" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/BeforeStories.stats" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/BeforeStories.stats" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/stories.first_test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/stories.first_test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/stories.first_test.stats" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/stories.first_test.stats" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/stories.first_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/stories.first_test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/storyDurations.props" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/storyDurations.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/view/AfterStories.stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/AfterStories.stats.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.stats.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/view/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/view/reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/reports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/view/stories.first_test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/stories.first_test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/view/stories.first_test.stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/stories.first_test.stats.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jbehave/view/stories.first_test.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/jbehave/view/stories.first_test.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/self/tests/FirstTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stories/first_test.story" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stories/first_test.story" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -75,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/first_test/FirstTestSteps.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="299">
-              <caret line="85" column="15" lean-forward="true" selection-start-line="85" selection-start-column="15" selection-end-line="85" selection-end-column="15" />
+              <caret line="85" column="15" selection-start-line="85" selection-start-column="15" selection-end-line="85" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,8 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/stories/first_test.story">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            <state>
+              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -333,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567465697018</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Completed Result Verification">
+      <created>1567465861452</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1567465861452</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -370,7 +353,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28337428" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -382,14 +364,14 @@
       <window_info id="DB Browser" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32741618" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4977307" visible="true" weight="0.15581854" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977307" weight="0.530572" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49791667" weight="0.41" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.32993197" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4971335" weight="0.16370809" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4971335" weight="0.4852071" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4977307" weight="0.32482994" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4977307" visible="true" weight="0.84812623" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5028665" side_tool="true" weight="0.32938856" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32993197" />
       <window_info anchor="bottom" id="DB Execution Console" order="12" />
@@ -409,7 +391,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Intermediate commit" />
     <MESSAGE value="Project re-structure." />
-    <option name="LAST_COMMIT_MESSAGE" value="Project re-structure." />
+    <MESSAGE value="Completed Result Verification" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Result Verification" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Shringar.iml">
@@ -510,7 +493,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/first_test/FirstTestSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
-          <caret line="85" column="15" lean-forward="true" selection-start-line="85" selection-start-column="15" selection-end-line="85" selection-end-column="15" />
+          <caret line="85" column="15" selection-start-line="85" selection-start-column="15" selection-end-line="85" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -519,8 +502,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/stories/first_test.story">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        <state>
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
