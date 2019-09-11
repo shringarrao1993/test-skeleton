@@ -83,8 +83,13 @@ public class FirstTestSteps extends ScenarioSteps{
         int resultTitleSize = wait.waitUntilElementsAreVisible(resultTitles).size();
         int resultBoldSize = wait.waitUntilElementsAreVisible(resultBoldWords).size();
 
-        boolean presenceOfSearchResultTitle = false;
-        boolean presenceOfSearchResultBoldWords = false;
+
+//      The below boolean variables can be used to check for the presence of the tiles or Bold words in each turn
+//        boolean presenceOfSearchResultTitle = false;
+//        boolean presenceOfSearchResultBoldWords = false;
+
+        int presenceOfSearchResultTitle = 0;
+        int presenceOfSearchResultBoldWords = 0;
 
         for (int i = 0; i < resultTitleSize; i++){
             assertThat(wait.waitUntilElementIsVisible(resultTitles.get(i))
@@ -93,7 +98,8 @@ public class FirstTestSteps extends ScenarioSteps{
                     , either(containsString(StringUtils.chop(searchTerm)))
                             .or(containsString(StringUtils.chop(searchTerm)
                                     .replace("u",""))));
-            presenceOfSearchResultTitle = true;
+//          presenceOfSearchResultTitle = true;
+            presenceOfSearchResultTitle++;
         }
         for (int i = 0; i < resultBoldSize; i++) {
             assertThat(wait.waitUntilElementIsVisible(resultBoldWords.get(i))
@@ -102,8 +108,9 @@ public class FirstTestSteps extends ScenarioSteps{
                     , either(containsString(StringUtils.chop(searchTerm)))
                             .or(containsString(StringUtils.chop(searchTerm)
                                     .replace("u", ""))));
-            presenceOfSearchResultBoldWords = true;
+//          presenceOfSearchResultBoldWords = true;
+            presenceOfSearchResultBoldWords++;
         }
-        assertThat(presenceOfSearchResultTitle || presenceOfSearchResultBoldWords, is(true));
+        assertThat(presenceOfSearchResultTitle > 0 && presenceOfSearchResultBoldWords > 0, is(true));
     }
 }
