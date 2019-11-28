@@ -83,7 +83,6 @@ public class FirstTestSteps extends ScenarioSteps{
         int resultTitleSize = wait.waitUntilElementsAreVisible(resultTitles).size();
         int resultBoldSize = wait.waitUntilElementsAreVisible(resultBoldWords).size();
 
-
 //      The below boolean variables can be used to check for the presence of the tiles or Bold words in each turn
 //        boolean presenceOfSearchResultTitle = false;
 //        boolean presenceOfSearchResultBoldWords = false;
